@@ -3,8 +3,8 @@
 This is the field guide for **fanning work across your accounts** with clikae —
 whether *you* are at the keyboard or an **LLM agent is driving clikae for you**
 (e.g. Claude Code running `clikae burn` / `clikae conduct` in the background).
-It's task-oriented; for the full command reference see [usage.md](usage.md), for
-the language see [grammar.md](grammar.md).
+It's task-oriented; for the full command reference see [usage.md](/clikae/usage.md), for
+the language see [grammar.md](/clikae/grammar.md).
 
 If you're an agent reading this: this page is the contract. Follow the rules in
 §3 and you won't fire a blank.
@@ -62,7 +62,7 @@ clikae agy <tank> -- --print-timeout 900s -p "$(cat /tmp/prompt.txt)"
 agy's headless personality differs from claude/codex enough that hand-rolling it the
 usual way fires a blank (it buffers big stdout and returns nothing; it wanders and
 burns the timeout; `-i` dies without a TTY). **Use the dedicated recipe —
-[`docs/agy-dispatch.md`](agy-dispatch.md) — before sending agy a headless job.** It's
+[`docs/agy-dispatch.md`](/clikae/agy-dispatch.md) — before sending agy a headless job.** It's
 a real paid engine; the recipe is how you stop wasting it.
 
 ## 3. The rules that keep it honest (hard-won — break one and you fire a blank)
@@ -248,6 +248,6 @@ clikae to L          # next fuelled tank, same conversation
 clikae to codex      # cross-vendor: a written brief, summarised on-device
 ```
 
-See also: [grammar.md](grammar.md) (the language), [usage.md](usage.md) (full
-reference), [EXPECTATIONS.md](EXPECTATIONS.md) ("is this a bug?" — deliberate
+See also: [grammar.md](/clikae/grammar.md) (the language), [usage.md](/clikae/usage.md) (full
+reference), [EXPECTATIONS.md](/clikae/EXPECTATIONS.md) ("is this a bug?" — deliberate
 surprises), and the `conductor` Claude Code skill for session-driven leg routing.

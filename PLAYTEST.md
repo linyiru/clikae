@@ -179,4 +179,4 @@ clikae
 ---
 
 _clikae 是 MIT 開源:<https://github.com/CVERInc/clikae> · 完整願景在
-[`docs/VISION.md`](./VISION.md)。_
+[`docs/VISION.md`](/clikae/VISION.md)。_
